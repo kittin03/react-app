@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Footer from './Footer';
-import HelloMessage from './HelloMessage';
+import HelloMessage from './components/HelloMessage';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reloooad.
         </p>
-        <HelloMessage />
+        <HelloMessage name="gf" />
         <Footer />
       </div>
     );

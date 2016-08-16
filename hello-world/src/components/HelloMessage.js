@@ -2,14 +2,9 @@ import React, { Component } from 'react';
 
 class HelloMessage extends Component {
   render() {
-      return <div>Hello</div>
+      return <div>Hello {this.props.name}</div>
     }
 
 };
 
 export default HelloMessage;
-/*
-ReactDOM.render(<HelloMessage name="blah" />,
-  document.getElementById('HelloMessage')
-);
-*/
