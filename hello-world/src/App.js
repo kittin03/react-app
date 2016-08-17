@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Footer from './Footer';
 import HelloMessage from './components/HelloMessage';
+import Timer from './components/Timer';
+import TodoApp from './components/TodoApp';
+import MarkdownEditor from './components/MarkdownEditor';
 
 class App extends Component {
   render() {
@@ -17,6 +20,9 @@ class App extends Component {
         </p>
         <HelloMessage name="gf" />
         <Footer />
+        <Timer />
+        <TodoApp />
+        <MarkdownEditor />
       </div>
     );
   }
